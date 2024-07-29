@@ -163,9 +163,9 @@ class FileUploader{
 	
 	
 	/** Method for setting the destination upload path of item being uploaded **/				
-	public function setUploadPath($up){
+	public function setUploadPath($path){
 				
-		$this->uploadPath = $up;
+		$this->uploadPath = $path;
 				
 	}
 	
